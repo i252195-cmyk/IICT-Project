@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cart — FAST Dropouts</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="brand"><img src="assets/logo.png"><h1>FAST Dropouts</h1></div>
+  <nav class="navlinks">
+    <a href="home.html">Home</a>
+    <a href="categories.html">Categories</a>
+    <a href="top-seller.html">Top Seller</a>
+    <a href="cart.html">Cart</a>
+  </nav>
+</header>
+
+<main class="section">
+  <h2 class="section-title">Your Cart</h2>
+
+  <div class="cart-item">
+    <div style="display:flex; justify-content:space-between;">
+      <div><strong>Web Development Bootcamp</strong><div class="card-desc">PKR 4,999</div></div>
+      <button class="btn-outline btn-remove" data-name="Web Development">Remove</button>
+    </div>
+  </div>
+  
+
+  <div class="cart-item">
+    <div style="display:flex; justify-content:space-between;">
+      <div><strong>Crypto Trading Basics</strong><div class="card-desc">PKR 5,499</div></div>
+      <button class="btn-outline btn-remove" data-name="Trading">Remove</button>
+    </div>
+  </div>
+
+  <div class="cart-item">
+    <div style="display:flex; justify-content:space-between;">
+      <div><strong>Canva Design</strong><div class="card-desc">PKR 3,999</div></div>
+      <button class="btn-outline btn-remove" data-name="Canva">Remove</button>
+    </div>
+  </div>
+
+  <div style="margin-top:18px;">
+    <div class="section-title">Total: <span class="price">PKR 14,497</span></div>
+  </div>
+  <div style="margin-top:18px;">
+
+  <div style="margin-top:12px;">
+    <h3 style="margin-bottom:8px;">Choose Payment Method:</h3>
+    <label style="display:block; margin-bottom:6px;">
+      <input type="radio" name="payment" value="card" checked> Card Payment
+    </label>
+    <label style="display:block; margin-bottom:6px;">
+      <input type="radio" name="payment" value="jazzcash"> JazzCash
+    </label>
+    <label style="display:block; margin-bottom:12px;">
+      <input type="radio" name="payment" value="applepay"> Apple Pay
+    </label>
+  </div>
+
+  <a href="contact.html?order=confirmed" class="btn-cta" style="margin-top:12px; display:inline-block;">Proceed to Checkout</a>
+</div>
+
+</main>
+
+<footer class="footer">© 2025 FAST Dropouts</footer>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
